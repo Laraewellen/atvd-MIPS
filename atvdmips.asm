@@ -9,6 +9,6 @@ lw $s2, num1
 lw $s3, num2
 mul $s1, $s2, $s3
 sw $s1, result 
-
+li $v0, 10
 
 syscall 
